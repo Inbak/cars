@@ -1,0 +1,62 @@
+body{
+    align-items: center;
+}
+.car{
+    height: 500px;
+    width: 400px;
+    border: 2px solid gray;
+    margin-left: 40%;
+    overflow: hidden;
+    background-color:gray;
+    
+}
+#img{
+    padding: 2px;
+    height: 200px;
+    width: 404px;
+    background-image:url("https://imgd.aeplcdn.com/1056x594/n/8g8nkva_1605221.jpg?q=75&wm=1");
+    background-size: cover;
+    
+    
+}
+#c1 , #c2 , #c3{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    margin-top: 80px;
+    margin-left: 5px;
+    border-radius: 80%;
+    border : none;
+    justify-content: space-between;
+}
+#c1 , #c2 , #c3:hover{
+    cursor: pointer;
+}
+#c1{background-color: #ffffff;}
+#c2{background-color: #000000}
+#c3{background-color: #474797;}
+
+.save{
+    height: 35px;
+    width: 70%;
+    margin-top: 10px;
+    margin-left: 5px;
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    color: green;
+    transition-duration: 1s;
+}
+.save:hover{
+    background-color: green;
+    color: aliceblue;
+}
+.name{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.volvo{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.1rem;
+    margin-left: 10px;
+}
